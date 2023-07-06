@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+    color: black;
+}
+.head1{
+    background-color: yellow;
+    font-size: 2.5rem; 
+    font-family:sans-serif;
+    font-weight: 5000;
+}
+.file2{
+    background-color: blue;
+    color:white;
+    font-size: 2.5rem; 
+    font-family:serif;
+    font-weight: 5000;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Application Form</title>
+        <link rel="icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT5R9_CGWtjoroAbfATlCupuE5qeTCDiN8zpn2YUI&s">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="all">
+        <div class="title">
+        <div class="head">
+            <h1>APPLICATION FORM</h1>
+        </div>
+        </div>
+        <div class="form">
+        <div id="contents">
+            <form>
+                <div class="image">
+                    <img class="pic" src="https://images.freeimages.com/365/images/istock/previews/1009/100996291-male-avatar-profile-picture-vector.jpg">
+                </div>
+                <div id="name">
+                    NAME<br>
+                    <input placeholder="Name" type="text" id="NAME" size="20%"><br>
+                </div><br>
+                <div id="dob">
+                    DATE OF BIRTH<br>
+                    <input type="date" id="DOB" style="width: 32.5%">
+                </div><br>
+                <div id="gender">
+                    GENDER<br>
+                    <input type="radio" id="M" value="male" name="gender">
+                    <label for="M">Male</label>
+                    <input type="radio" id="F" value="female" name="gender"> 
+                    <label for="F">Female</label>
+                    <input type="radio" id="O" value="not to say" name="gender"> 
+                    <label for="O">Prefer Not to Say</label>
+                </div><br>
+                <div id="inst">
+                    INSTITUTE NAME<br> 
+                    <input placeholder="Institute Name" pattern="[A-Za-z]" id="INS" size="70%">
+                </div><br>
+                <div id="roll">
+                    ROLL NO.<br> 
+                    <input placeholder="Roll No." pattern="[A-Z0-9]{8}" id="ROLL" size="70%">
+                </div><br>
+                <div id="mail">
+                    E-MAIL<br>
+                    <input placeholder="E-mail" type="email" id="MAIL" size="70%">
+                </div><br>
+                <div id="ph">
+                    MOBILE NO.<br>
+                    <input placeholder="Mobile Number" pattern="[0-9]{10}" id="PH" size="70%">
+                </div><br>
+                <div id="fathername">
+                    FATHER'S NAME<br>
+                    <input placeholder="Father's Name" type="text" id="FNAME" size="70%"><br>
+                </div><br>
+                <div id="fph">
+                    FATHER'S MOBILE NO.<br>
+                    <input placeholder="Father's Mobile Number" pattern="[0-9]{10}" id="FPH" size="70%"><br>
+                </div><br>
+                <div id="mothername">
+                    MOTHER'S NAME<br>
+                    <input placeholder="Mother's Name" type="text" id="MNAME" size="70%"><br>
+                </div><br>
+                <div id="mph">
+                    MOTHER'S MOBILE NO.<br>
+                    <input placeholder="Mother's Mobile Number" pattern="[0-9]{10}" id="MPH" size="70%"><br>
+                </div><br>
+                <div id="income">
+                    FAMILY INCOME<br>
+                    <input placeholder="Family Income" pattern="[0-9]" id="INC" size="70%"><br>
+                </div><br>
+                <div id="address">
+                    ADDRESS<br>
+                    <input placeholder="Postal Address" type="text" id="ADDRESS" size="70%"><br>
+                </div><br>
+                <div id="b">
+                    <button id="b1">Submit</button>
+                    <button id="b2">Reset</button>
+                </div>
+            </form>
+        </div>
+        </div>
+        </div>
+    </body>
+</html>
