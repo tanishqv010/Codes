@@ -5,6 +5,7 @@ using namespace std;
 int main(){
     int a, b;
     char op;
+    cout << "Enter the operation to be performed : ";
     cin >> a >> op >> b;
     switch(op){
         case '+' :

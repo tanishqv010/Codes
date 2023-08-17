@@ -4,20 +4,21 @@ using namespace std;
 
 int main(){
     int n;
+    cout << "Enter a Number : ";
     cin >> n;
     if(n >= 80){
-        cout << "A";
+        cout << "Grade is A";
     }else if(n >= 70){
-        cout << "AB";
+        cout << "Grade is AB";
     }else if(n >= 60){
-        cout << "B";
+        cout << "Grade is B";
     }else if(n >= 50){
-        cout << "BC";
+        cout << "Grade is BC";
     }else if(n >= 40){
-        cout << "C";
+        cout << "Grade is C";
     }else if(n >= 30){
-        cout << "D";
+        cout << "Grade is D";
     }else{
-        cout << "F";
+        cout << "Grade is F";
     }
 }

@@ -4,7 +4,10 @@ using namespace std;
 
 int main(){
     int ll, ul, j, count = 0;
-    cin >> ll >> ul;
+    cout << "Enter Lower Limit : ";
+    cin >> ll;
+    cout << "Enter Upper Limit : ";
+    cin >> ul;
     if(ll < 2){
         ll = 2;
     }

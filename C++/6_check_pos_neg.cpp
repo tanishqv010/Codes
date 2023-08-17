@@ -4,13 +4,14 @@ using namespace std;
 
 int main(){
     int n;
+    cout << "Enter a number : ";
     cin >> n;
     if(n > 0){
-        cout << "Positive";
+        cout << "Number is Positive";
     }else if(n < 0){
-        cout << "Negative";
+        cout << "Number is Negative";
     }else{
-        cout << "Zero";
+        cout << "Number is Zero";
     }
     return 0;
 }
