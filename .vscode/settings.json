@@ -3,5 +3,6 @@
     "diffEditor.codeLens": true,
     "files.associations": {
         "iostream": "cpp"
-    }
+    },
+    "dotnet.defaultSolution": "C#/C#.sln"
 }
